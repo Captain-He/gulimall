@@ -1,0 +1,20 @@
+package com.he.gulimall.coupon.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.he.common.utils.PageUtils;
+import com.he.gulimall.coupon.entity.SpuBoundsEntity;
+
+import java.util.Map;
+
+/**
+ * 商品spu积分设置
+ *
+ * @author hzc
+ * @email ishezhichao@gmail.com
+ * @date 2022-12-29 20:31:56
+ */
+public interface SpuBoundsService extends IService<SpuBoundsEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+
